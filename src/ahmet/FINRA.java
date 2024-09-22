@@ -1,4 +1,7 @@
 package ahmet;
+
+import java.util.Scanner;
+
 /*
 Write a function that prints out the numbers from 1 to 30 but for numbers that are a multiple of 3,
 print "FIN" instead of the number, and for numbers that are a multiple of 5, print "RA" instead of the number.
@@ -7,6 +10,25 @@ For numbers that are a multiple of both 3 and 5, print "FINRA" instead of the nu
  */
 public class FINRA {
     public static void main(String[] args) {
+
+            for (int i = 1; i <= 30; i++) {
+                switch ((i % 3 == 0 ? 1 : 0) + (i % 5 == 0 ? 2 : 0)) {
+                    case 0:
+                        System.out.print(" "+i);
+                        break;
+                        case 1:
+                            System.out.print(" "+"FIN");
+                            break;
+                        case 2:
+                            System.out.print(" "+"RA");
+                            break;
+                        case 3:
+                            System.out.print(" "+"FINRA");
+                            break;
+
+        }
+
+        }
 
     }
 }
