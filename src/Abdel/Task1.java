@@ -1,4 +1,4 @@
-package Snezhana;
+package Abdel;
 
 public class Task1 {
 }
