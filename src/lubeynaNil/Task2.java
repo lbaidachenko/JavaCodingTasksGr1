@@ -16,6 +16,7 @@ public class Task2 {
             }
         }
 
+        //FINISHED
 
  /*Java Coding Tasks - Week2
 FINRA: Write a function that prints out the numbers from 1 to 30 but for numbers that are a multiple of 3,
