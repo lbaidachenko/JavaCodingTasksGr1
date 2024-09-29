@@ -6,7 +6,7 @@ import java.util.Scanner;
  * This class demonstrates swapping the values of two integer variables without using a third variable.
  * It uses a scanner to input the values of the variables and performs the swap using basic arithmetic operations.
  */
-public class SwapTwoNumbers {
+public class Week3_SwapTwoNumbers {
 
     /**
      * The main method that executes the program.
