@@ -5,7 +5,10 @@ public class reverseNegativeNumber {
     //input: -35  output: -53
     public static void main(String[] args) {
         reverse(-35);
+        System.out.println("-*-*-*-*-*-*-*");
         reverse(-243);
+        System.out.println("-*-*-*-*-*-*-*");
+        reverse(-12345);
 
     }
     public static void reverse(int input) {
