@@ -11,4 +11,3 @@ public class Task1 {
 
     }
 }
-2
